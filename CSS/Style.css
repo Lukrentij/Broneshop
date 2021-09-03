@@ -1,0 +1,582 @@
+body {
+margin: 0;
+padding: 0;
+
+
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 24px;
+font-weight: 300;
+color: #000;
+
+}
+
+
+h1 {
+    color: #b3b3b3;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+}
+
+.grid {
+    background-color: #9a9a9a;
+}
+
+.grid-white {
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.grid-gray {
+    background-color: #f5f5f5;
+}
+
+
+/* шапка */
+.header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header {
+    background-color: #000;
+}
+
+.logo-min {
+    margin-bottom: 10px;
+}
+
+
+/* навигация */
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.nav a:visited {
+    color: #666666;
+}
+
+.nav a:hover {
+    color: #ff8b38;
+}
+
+.nav a:active {
+    color: #ff8b38;
+    transform: scale(2);
+}
+
+.nav a:focus {
+    color: #ff8b38;
+    text-decoration: underline overline;
+}
+/* Вернем силу войскам */
+
+
+.main {
+    background-color: #9a9a9a;
+    color: #ffffff;   
+    height: 500px;  
+}
+
+
+.modern {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0;
+    padding-top: 8px;
+    font-family: "myriad-pro-condensed";
+    font-weight: normal;
+    text-align: left;
+    word-spacing: 6px;
+
+}
+
+.form-request {
+    width: 360px;
+}
+
+.form-engineer  {
+    background-color: #ffffff;    
+}
+
+.form-request input {
+    margin: 18px 45px;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    color: #cecece;
+    width: 270px;
+}
+
+.form-request input::placeholder {
+    color: #cecece;
+}
+
+.data {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding-top: 8px;
+    width: 360px;
+    height: 46px;
+    text-align: center;
+    color: #333333;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+.button {
+    background-color: #ff8b38;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    height: 45px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.button-submit {
+    background-color: #ff8b38;
+    border-bottom: none;
+   
+}
+
+
+
+/* соцсетти */
+
+.socials-box {
+    height: 46px;   
+}
+/* грид */
+.socials-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: stretch;
+}
+
+.socials-box>div>h2 {
+    height: 65px;
+    padding: 12px;
+    text-align: left;
+    
+}
+/* соцсетти флекс */
+
+.social-network {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+} 
+
+
+
+.social-network a {
+    text-decoration: none;      
+}
+
+
+.tender,.feedback-common {
+    background-color: #f5f5f5;
+}
+
+.header-left,.headr-right {
+    background-color: #000;  
+}
+
+.main-left,.main-right,.footer-left,.footer-right {
+    background-color: #ffffff;
+}
+
+
+
+
+/* Поколения.*/
+
+.first-level,.second-level,.second-level>li>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.first-level {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.first-level>li>a {
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 114px;     
+    width: 114px;
+    height: 114px;
+    background-color: black;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    text-decoration: none;
+}
+
+.first-level>li>a:hover {
+    background-color: #ff8b38;
+}
+
+.second-level {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 115px;
+    top: 150px;
+    background-color: #f5f5f5;
+    height: 450px;
+    padding-left: 90px;
+    min-width: 800px;   
+}
+
+.second-level li img {
+    margin-left: 20px;
+}
+
+.level {
+    display: none;
+    left: 115px;
+    top: 150px;
+}
+
+.first-level li:hover .second-level {
+    display: flex;
+}
+
+.mini {
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+/* Промо */
+
+.promo {
+    padding: 50px 0;
+}
+
+.promo section {
+    display: flex;
+    min-width: 740px;
+}
+
+.promo section div {
+    margin-left: 20px;
+}
+
+.promo section:first-child {
+    flex-direction: row-reverse;
+}
+.promo section div:first-child {
+    margin-right: 20px;
+}
+
+/* Преимущества */
+
+.advantages h2,.advantages p{
+    text-align: center;
+
+}
+
+.advantages {
+    padding-top: 50px;
+}
+
+.advantages-flex {
+    padding: 50px 0;
+}
+
+.advantages-flex section p {
+    max-width: 300px;
+    text-align: center;
+}
+
+/* бюджет */
+
+.grid-white>div>h2 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.box-black {
+    background-color: #000;
+    color: #ffffff;
+    
+}
+
+.box-black h3 {
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.box-black ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.box-black ul li:first-child {
+    font-size: 3em;
+    font-weight: 800;
+    padding-bottom: 10px;
+    margin-left: -10px;
+    text-align: center;
+}
+.box-black div {
+    border-bottom: 5px solid #ff8b38;
+    
+}
+
+.box-white {
+    background-color: #f5f5f5;
+}
+
+.box-white ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.box-white ul li {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 0;
+    font-weight: 300;
+    color: #a4a5a8;
+}
+
+.super {
+    background-color: #ff8b38;
+    text-align: center;
+    margin: 0;
+    padding: 0 5px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* отзовы */
+
+.Reviews {
+    padding: 50px 0;
+}
+
+.feedback {
+    width: 270px;
+    margin: 0 auto;
+}
+
+.box-reviews {
+    padding-bottom: 50px;
+}
+
+.feedback div:first-child {
+    background-color: #fff;
+    padding: 10px;
+    font-style: italic;
+}
+
+.feedback div p {
+    text-align: justify;
+    color: #a4a5a8;
+}
+
+.reviews-flex img {
+    margin: 20px 20px 0 0;
+    border-radius: 50%;
+}
+
+.reviews-flex div ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    
+}
+
+.reviews-flex div ul li {
+    color: #a4a5a8;
+}
+
+.reviews-flex div ul li:first-child {
+    font-weight: 800;
+    font-size: 1.3em;
+    color: black;
+}
+
+.feedback div {
+    position: relative;
+    
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ffffff;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+/* контакты */
+
+.warning {
+    text-align: center;
+    color: #a4a5a8;
+}
+
+.form-bid {
+    width: 400px;
+    margin: 40px auto;
+    background-color: #a4a5a8;
+    border-radius: 20px;
+}
+
+.form-bid div {
+    padding: 20px 0;
+    margin: 0 20px;
+    
+}
+
+.form-bid div input {
+    width: 360px;
+    text-align: center;
+    background-color: #a4a5a8;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.form-bid div input::placeholder {
+    color: #cecece;
+}
+
+.form-bid>input {
+    width: 150px;
+    margin: 0 125px 20px 125px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff8b38;
+    font-weight: 600;
+}
+
+/* подвал */
+
+footer p {
+    text-align: center;
+}
+
+
+
+
+/* гриды */
+
+
+/*
+header {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.headr-right {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+*/
+.grid,.grid-white,.grid-gray,header {
+    display: grid;
+    grid-template-columns: auto 1000px auto;
+    justify-content: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    justify-content: center;
+    grid-template-rows: 80px 100px 140px;
+  
+}
+
+h1 {
+    grid-column: span 2;
+    justify-self: center;
+    
+}
+
+.form-request {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    
+}
+
+
+/* Флексы Преимущества */
+
+.advantages-flex {
+    display: flex;
+    justify-content: space-around;
+
+} 
+.advantages-flex section {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+/* бюджет */
+
+.box-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* отзовы */
+.box-reviews {
+    display: flex;
+    align-content: flex-start;
+}
+
+.reviews-flex {
+    display: flex;
+    align-content: flex-start;
+}
+
